@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 * {
   font-family: "Poppins", sans-serif;
 }
@@ -41,26 +43,6 @@
   width: fit-content;
 }
 
-@media only screen and (max-width: 600px) {
-  .scale-down {
-    width: 170%;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .width-100-important {
-    width: 100% !important;
-  }
-  .scale-up {
-    transform: scale(1);
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .scale-down {
-    width: 200%;
-  }
-}
 .btn-color{
   background-color: #2d5bc5;
   border-radius: 10px;
@@ -113,4 +95,61 @@
 }
 .head-text{
   font-size:70px;
+}
+
+.nav-item{
+  margin-left: 30px;
+  position: relative;
+  left: 50px;
+}
+.nav-link{
+  transition: all ease-in-out .2s;
+}
+
+.nav-link:hover{
+  text-decoration: underline;
+  font-size: 27px;
+}
+
+.hero-img{
+  position: relative;
+  left: 50px;
+  bottom: 100px;
+  pointer-events: none;
+}
+.timer-head{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+.flipdown{
+  margin-bottom: 30px;
+  
+}
+
+.h1 span{
+  font-size: 4rem;
+}
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+  .scale-down {
+    width: 170%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .width-100-important {
+    width: 100% !important;
+  }
+  .scale-up {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .scale-down {
+    width: 200%;
+  }
 }
