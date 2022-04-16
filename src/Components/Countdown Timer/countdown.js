@@ -46,12 +46,13 @@ export default function CountDown() {
   return (
     <section className="timer-container text-white w-75 h-50  d-flex align-items-center">
       <section className="timer text-center vw-100 p-2">
-        <div className="timer-headStyle d-flex justify-content-center align-items-center text-center fs-2">
+        <div className="timer-headStyle d-flex justify-content-start align-items-center text-center fs-2">
          {/* <BsCalendar2Event className="timer-icon mx-3" /> */}
           <h5 className="timer-heading pt-2 text-black">Events Starts In</h5>
+          <br/>
         </div>
 
-        <div className="time-container d-flex justify-content-center">
+        <div className="time-container d-flex justify-content-start">
           <section className="time px-2">
             <span className="time-number fs-2 p-1">{timerDays}</span>
             <p>
