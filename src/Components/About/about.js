@@ -9,14 +9,16 @@ export default function About() {
         <h2 className="text-center fs-1">About us</h2>
       </div>
       <Border />
-      <p className="text-center fs-5">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, deserunt
-        ullam! Pariatur assumenda odio quo sequi inventore eius consequatur
-        accusantium doloribus non vero porro debitis, earum esse nam saepe. Et?
-      </p>
-      <div className="d-flex justify-content-center">
-        <img src={codersEvoke} alt="" />
+      <div className="row justify-content-center m-auto align-items-center">
+        <img className="flex-shrink-2 img-fluid col" src={codersEvoke} alt="" />
+        <div className="about-text m-3 flex-shrink-2 col">
+          <p className="text-primary fs-2">Welcome to</p>
+          <h1 className="text-danger fs-1 ">The Biggest Summer Fest </h1>
+          <h1 className="text-danger fs-1 ">Of Year 2022</h1>
+          <p className="fs-3 my-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis ea voluptates dicta, explicabo pariatur libero fugit laboriosam quam delectus minima doloribus quaerat est totam quae repudiandae quisquam cupiditate eum! Reprehenderit!</p>
+        </div>
       </div>
     </section>
   );
 }
+

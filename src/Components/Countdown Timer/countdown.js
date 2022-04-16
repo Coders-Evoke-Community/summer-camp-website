@@ -12,7 +12,7 @@ export default function CountDown() {
 
   const startTimer = () => {
     const currentyear = new Date().getFullYear();
-    const countdownDate = new Date(`April 18 ${currentyear} 00:00:00`);
+    const countdownDate = new Date(`April 20 ${currentyear} 20:00:00`);
     console.log(countdownDate);
 
     interval = setInterval(() => {
