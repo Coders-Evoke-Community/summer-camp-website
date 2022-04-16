@@ -46,41 +46,35 @@ export default function CountDown() {
   return (
     <section className="timer-container">
       <section className="timer">
-        <div className="timer-body">
-          <div className="timer-headStyle">
-            <BsCalendar2Event className="timer-icon" />
-            <h2 className="timer-heading">CountDown Timer</h2>
-          </div>
-          <p>
-            Countdown to a really special date. One you could or would never
-            imagine
-          </p>
+        <div className="timer-headStyle">
+          <BsCalendar2Event className="timer-icon" />
+          <h2 className="timer-heading">CountDown Timer</h2>
         </div>
 
         <div className="time-container">
           <section className="time">
-            <p className="time-number">{timerDays}</p>
+            <span className="time-number">{timerDays}</span>
             <p>
               <small className="time-text">Days</small>
             </p>
           </section>
           <span className="time-colon">:</span>
           <section className="time">
-            <p className="time-number">{timerHours}</p>
+            <span className="time-number">{timerHours}</span>
             <p>
               <small className="time-text">Hours</small>
             </p>
           </section>
           <span className="time-colon">:</span>
           <section className="time">
-            <p className="time-number">{timerMinutes}</p>
+            <span className="time-number">{timerMinutes}</span>
             <p>
               <small className="time-text">Minutes</small>
             </p>
           </section>
           <span className="time-colon">:</span>
           <section className="time">
-            <p className="time-number">{timerSeconds}</p>
+            <span className="time-number">{timerSeconds}</span>
             <p>
               <small className="time-text">Seconds</small>
             </p>
