@@ -44,39 +44,39 @@ export default function CountDown() {
   });
 
   return (
-    <section className="timer-container">
-      <section className="timer">
-        <div className="timer-headStyle">
-          <BsCalendar2Event className="timer-icon" />
-          <h2 className="timer-heading">CountDown Timer</h2>
+    <section className="timer-container text-white w-75 h-50 bg-dark bg-opacity-50 d-flex align-items-center">
+      <section className="timer text-center vw-100 p-2">
+        <div className="timer-headStyle d-flex justify-content-center align-items-center text-center fs-2">
+          <BsCalendar2Event className="timer-icon mx-3" />
+          <h2 className="timer-heading pt-2">CountDown Timer</h2>
         </div>
 
-        <div className="time-container">
-          <section className="time">
-            <span className="time-number">{timerDays}</span>
+        <div className="time-container d-flex justify-content-center">
+          <section className="time px-2">
+            <span className="time-number fs-2 p-1">{timerDays}</span>
             <p>
-              <small className="time-text">Days</small>
+              <small className="time-text fw-light">Days</small>
             </p>
           </section>
-          <span className="time-colon">:</span>
-          <section className="time">
-            <span className="time-number">{timerHours}</span>
+          <span className="time-colon fs-2">:</span>
+          <section className="time px-2">
+            <span className="time-number fs-2">{timerHours}</span>
             <p>
-              <small className="time-text">Hours</small>
+              <small className="time-text fw-light">Hours</small>
             </p>
           </section>
-          <span className="time-colon">:</span>
-          <section className="time">
-            <span className="time-number">{timerMinutes}</span>
+          <span className="time-colon fs-2">:</span>
+          <section className="time px-2">
+            <span className="time-number fs-2">{timerMinutes}</span>
             <p>
-              <small className="time-text">Minutes</small>
+              <small className="time-text fw-light">Minutes</small>
             </p>
           </section>
-          <span className="time-colon">:</span>
-          <section className="time">
-            <span className="time-number">{timerSeconds}</span>
+          <span className="time-colon fs-2">:</span>
+          <section className="time px-2">
+            <span className="time-number fs-2">{timerSeconds}</span>
             <p>
-              <small className="time-text">Seconds</small>
+              <small className="time-text fw-light">Seconds</small>
             </p>
           </section>
         </div>
