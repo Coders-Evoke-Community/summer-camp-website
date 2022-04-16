@@ -44,11 +44,11 @@ export default function CountDown() {
   });
 
   return (
-    <section className="timer-container text-white w-75 h-50 bg-dark bg-opacity-50 d-flex align-items-center">
+    <section className="timer-container text-white w-75 h-50  d-flex align-items-center">
       <section className="timer text-center vw-100 p-2">
         <div className="timer-headStyle d-flex justify-content-center align-items-center text-center fs-2">
-          <BsCalendar2Event className="timer-icon mx-3" />
-          <h2 className="timer-heading pt-2">CountDown Timer</h2>
+         {/* <BsCalendar2Event className="timer-icon mx-3" /> */}
+          <h5 className="timer-heading pt-2 text-black">Events Starts In</h5>
         </div>
 
         <div className="time-container d-flex justify-content-center">
