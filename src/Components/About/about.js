@@ -4,7 +4,7 @@ import Border from "../Customized Border/border";
 
 export default function About() {
   return (
-    <section className="my-5 container">
+    <section className="my-5 container" id = "about">
       <div>
         <h2 className="text-center fs-1">About us</h2>
       </div>

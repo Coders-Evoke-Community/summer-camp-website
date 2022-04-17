@@ -1,0 +1,24 @@
+.footer-container{
+	background: #ff942e;
+	padding: 10px;
+}
+.footer-container p{
+	font-size: 20px;
+	margin-top: 20px;
+	font-weight: 500;
+}
+.social-icons{
+	list-style: none;
+}
+
+.social-icons li{
+	float: right;
+	position: relative;
+	bottom: 45px;
+}
+.social-icons li a{
+	display: block;
+	font-size: 20px;
+	color: #FED1A2;
+
+}

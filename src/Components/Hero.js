@@ -4,6 +4,7 @@ import "./hero.css";
 import heroImg from "./assets/img/Hero Illustration.svg";
 import CountDown from "./Countdown Timer/countdown";
 export default function Hero() {
+  
   return (
     <div className="d-flex container justify-content-center align-items-center">
       <div className="flex-fill col-xl-6 col-lg-7 ">
