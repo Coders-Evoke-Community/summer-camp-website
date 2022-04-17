@@ -2,6 +2,7 @@
 
 * {
   font-family: "Poppins", sans-serif;
+  
 }
 .fw-medium {
   font-weight: 500;
@@ -100,8 +101,7 @@
 
 .hero-img{
   position: relative;
-  left: 50px;
-  bottom: 100px;
+  
   pointer-events: none;
 }
 .timer-head{

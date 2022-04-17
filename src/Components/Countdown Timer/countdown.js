@@ -12,7 +12,7 @@ export default function CountDown() {
 
   const startTimer = () => {
     const currentyear = new Date().getFullYear();
-    const countdownDate = new Date(`April 18 ${currentyear} 00:00:00`);
+    const countdownDate = new Date(`April 20 ${currentyear} 20:00:00`);
     console.log(countdownDate);
 
     interval = setInterval(() => {
@@ -44,14 +44,15 @@ export default function CountDown() {
   });
 
   return (
-    <section className="timer-container text-white w-75 h-50 bg-dark bg-opacity-50 d-flex align-items-center">
+    <section className="timer-container text-white w-75 h-50  d-flex align-items-center">
       <section className="timer text-center vw-100 p-2">
-        <div className="timer-headStyle d-flex justify-content-center align-items-center text-center fs-2">
-          <BsCalendar2Event className="timer-icon mx-3" />
-          <h2 className="timer-heading pt-2">CountDown Timer</h2>
+        <div className="timer-headStyle d-flex justify-content-start align-items-center text-center fs-2">
+         {/* <BsCalendar2Event className="timer-icon mx-3" /> */}
+          <h5 className="timer-heading pt-2 text-black">Events Starts In</h5>
+          <br/>
         </div>
 
-        <div className="time-container d-flex justify-content-center">
+        <div className="time-container d-flex justify-content-start">
           <section className="time px-2">
             <span className="time-number fs-2 p-1">{timerDays}</span>
             <p>

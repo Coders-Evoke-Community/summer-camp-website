@@ -1,8 +1,11 @@
-.timer-container{
-  border-radius: 3em;
+.time-container{
+  font-size: 27px;
+  color: #FF8918;
+  font-weight: 600;
 }
 
 .timer-icon {
   height: 1.3em;
   width: 1.3em;
 }
+

@@ -18,13 +18,13 @@ export default function Header(){
             <a className="nav-link active nav-text" aria-current="page" href="#">HOME</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link nav-text" href="#">ABOUT</a>
+            <a className="nav-link nav-text" href="#about">ABOUT</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link nav-text" href="#">SPONSORS</a>
+            <a className="nav-link nav-text" href="#sponsors">SPONSORS</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link nav-text" href="#">FAQS</a>
+            <a className="nav-link nav-text" href="#faqs">FAQS</a>
           </li>
           <li className="nav-item">
             <a className="nav-link nav-text" href="#">CONTACT</a>
