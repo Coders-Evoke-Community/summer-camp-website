@@ -18,8 +18,14 @@ export default function Hero() {
           </span>
         </h2>
         <CountDown />
+        <div className="hero-btns">
+              <a href="#" className = "btn btn-primary mx-4">  Register</a>
+              <a href="#" className = "btn btn-primary"> <BsDiscord className="timer-icon mx-3" /> Join Discord</a>
+
+            </div>
       </div>
-      <div className="">
+
+      <div className="hero-img">
         <img src={heroImg} alt="" className="img-fluid scale" />
       </div>
     </div>
