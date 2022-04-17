@@ -1,0 +1,11 @@
+.border-curve {
+    border-radius: 15px;
+}
+
+.image-curve{
+    border-radius: 50%;
+}
+
+.card{
+    min-width: 18em;
+}
