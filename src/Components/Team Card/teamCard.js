@@ -5,7 +5,7 @@ import Border from "../Customized Border/border";
 
 export default function TeamCard() {
   return (
-    <div className="card m-3 bg-transparent border-0">
+    <div className="card m-3 bg-transparent border-0 w-25">
       <div class="bg-white p-3 border-curve">
         <div className="card-content border border-danger border-1 border-curve">
           <div className="d-flex justify-content-center align-items-center">
