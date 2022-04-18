@@ -1,4 +1,5 @@
 import codersEvoke from "../assets/img/logo.png";
+import KrupeshVithlani from "../assets/img/Team/Krupesh Vithlani.jpg"
 import "./teamCard.css";
 import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import Border from "../Customized Border/border";
@@ -10,7 +11,7 @@ export default function TeamCard() {
         <div className="card-content border border-danger border-1 border-curve">
           <div className="d-flex justify-content-center align-items-center">
             <img
-              src={codersEvoke}
+              src={KrupeshVithlani}
               class="card-img-top bg-primary w-75 my-2 rounded-pill"
               alt="..."
             />
