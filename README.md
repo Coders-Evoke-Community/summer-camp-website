@@ -7,6 +7,7 @@
 - [ ] krupesh -> Add 'community partner section'
 - [ ] Rohit -> Add Event details section
 - [ ] krupesh -> add logo
+- [ ] Priyanshu -> Contact Section
 
 # Features to add
 - [x] About Section
