@@ -1,6 +1,13 @@
+import React, { Component } from "react"
 import "./team.css";
 import Border from "../Customized Border/border";
-import TeamCard from "../Team Card/teamCard";
+import { TeamCard } from "../Team Card/teamCard";
+import { Teammembers } from "../Team Card/teammember";
+import { Teammembers1 } from "../Team Card/teammember1";
+import { Teammembers2 } from "../Team Card/teammember2";
+import { Teammembers3 } from "../Team Card/teammember3";
+import { Teammembers4 } from "../Team Card/teammember4";
+import { Teammembers5 } from "../Team Card/teammember5";
 import codersEvoke from "../assets/img/logo.png";
 
 export default function Team() {
@@ -20,23 +27,37 @@ export default function Team() {
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div className="d-flex justify-content-center">
-              <TeamCard />
-              <TeamCard />
-              <TeamCard />
+              <Teammembers />
+              {/* <TeamCard />
+              <TeamCard /> */}
             </div>
           </div>
           <div class="carousel-item">
             <div className="d-flex justify-content-center">
+              <Teammembers1 />
+              {/* <TeamCard />
               <TeamCard />
-              <TeamCard />
-              <TeamCard />
+              <TeamCard /> */}
             </div>
           </div>
           <div class="carousel-item">
             <div className="d-flex justify-content-center">
-              <TeamCard />
-              <TeamCard />
-              <TeamCard />
+             <Teammembers2/>
+            </div>
+          </div>
+           <div class="carousel-item">
+            <div className="d-flex justify-content-center">
+             <Teammembers3/>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div className="d-flex justify-content-center">
+             <Teammembers4/>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div className="d-flex justify-content-center">
+             <Teammembers5/>
             </div>
           </div>
         </div>
