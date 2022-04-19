@@ -6,6 +6,10 @@ import { BsDiscord, BsTwitter, BsLinkedin, BsInstagram, BsFacebook} from "react-
 export default function Footer() {
   return (
     <div className="footer-container">
+    	<h1 style={{ color: "Yellow",
+				textAlign: "center",
+				marginTop: "-50px" }}>
+
       <p>Copyright &copy; Summer Fest - Coders Evoke</p>
 
       <ul className = "social-icons">
