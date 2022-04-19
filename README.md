@@ -11,9 +11,10 @@
 
 # Features to add
 - [x] About Section
-- [ ] Footer
+- [x] Footer
 - [ ] Sponsors section
 - [ ] community partners section
 - [ ] event details section
 - [ ] Logo
 - [ ] Select a common font
+- [ ] Contact Section
