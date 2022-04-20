@@ -1,15 +1,20 @@
 # Issues to solve
-- [ ] Countdown timer and buttons are overlapping
+- [ ] 'Meet our team' section is not responsive
+- [ ] 'Sponsors' section is not responsive
+- [ ] Footer is not perfectly aligned
 
 # TODO
-- [ ] krupesh -> Add Logo
-- [ ] Rohit -> Add countdown timer
+- [ ] krupesh -> Add 'community partner section'
+- [ ] Rohit -> Add Event details section
+- [ ] krupesh -> add logo
+- [ ] Priyanshu -> Contact Section
 
 # Features to add
-- About Section
-- Footer
-- Sponsors section
-- community partners section
-- event details section
-- Logo
-- Select a common font
+- [x] About Section
+- [x] Footer
+- [ ] Sponsors section
+- [ ] community partners section
+- [ ] event details section
+- [ ] Logo
+- [ ] Select a common font
+- [ ] Contact Section
