@@ -27,7 +27,7 @@
   transform: scale(1.2);
 }
 .linear-gradient-body {
-  background: linear-gradient(287.83deg, #fed1a2, rgb(254, 209, 162));
+  background: linear-gradient(287.83deg, #FFD1A1, #F8F2BE );
 }
 /* .linear-gradient-body {
   background: linear-gradient(
@@ -124,6 +124,8 @@
   .scale-down {
     width: 170%;
   }
+
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -133,10 +135,12 @@
   .scale-up {
     transform: scale(1);
   }
+
 }
 
 @media only screen and (min-width: 992px) {
   .scale-down {
     width: 200%;
   }
+  
 }

@@ -14,7 +14,7 @@ export default function CountDown() {
 
   const startTimer = () => {
     const currentyear = new Date().getFullYear();
-    const countdownDate = new Date(`April 20 ${currentyear} 20:00:00`);
+    const countdownDate = new Date(`June 7 ${currentyear} 24:00:00`);
     console.log(countdownDate);
 
     interval = setInterval(() => {
@@ -47,7 +47,7 @@ export default function CountDown() {
 
   return (
     <section className="timer-container text-white w-75 h-50  d-flex align-items-center">
-      <motion.section initial={{x:-250, opacity:0}} animate={{x:-10, opacity:1}} transition={{duration:1}} className="timer text-center vw-100 p-2">
+      <motion.section initial={{x:-250, opacity:0}} animate={{x:-10, opacity:1}} transition={{duration:1}} className="timer text-center vw-100">
         <div className="timer-headStyle d-flex justify-content-start align-items-center text-center fs-2">
          {/* <BsCalendar2Event className="timer-icon mx-3" /> */}
          <center> <h5 className="timer-heading pt-2 text-black">Events Starts In</h5> </center>
