@@ -15,7 +15,7 @@ export class TeamCard extends Component{
           <div className="d-flex justify-content-center align-items-center">
             <img
               src= {this.props.img}
-              class="card-img-top bg-primary w-75 my-2 rounded-pill"
+              class="profile-photo card-img-top bg-primary w-75 my-2 rounded-pill"
               alt="..."
             />
           </div>
@@ -32,12 +32,12 @@ export class TeamCard extends Component{
                   </a>
                 </li>
                 <li className="social-icons mx-2">
-                  <a href="#">
+                  <a href={this.props.linkedin}>
                     <FaLinkedinIn />
                   </a>
                 </li>
                 <li className="social-icons mx-2">
-                  <a href="#">
+                  <a href={this.props.twitter}>
                     <FaTwitter />
                   </a>
                 </li>

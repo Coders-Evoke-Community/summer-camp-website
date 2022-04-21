@@ -8,6 +8,8 @@ import { Teammembers2 } from "../Team Card/teammember2";
 import { Teammembers3 } from "../Team Card/teammember3";
 import { Teammembers4 } from "../Team Card/teammember4";
 import { Teammembers5 } from "../Team Card/teammember5";
+import { Teammembers6 } from "../Team Card/teammember6";
+
 import codersEvoke from "../assets/img/logo.png";
 
 export default function Team() {
@@ -58,6 +60,11 @@ export default function Team() {
           <div class="carousel-item">
             <div className="d-flex justify-content-center">
              <Teammembers5/>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div className="d-flex justify-content-center">
+             <Teammembers6/>
             </div>
           </div>
         </div>
