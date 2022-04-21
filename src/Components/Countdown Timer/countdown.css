@@ -12,4 +12,17 @@
   height: 1.3em;
   width: 1.3em;
 }
+@media only screen and (max-width: 600px){
+  
+  .time-container{
+    padding: 0 30px 0 30px;
+  }
+  .time{
+    font-size: 20px;
+  }
+  .timer-heading{
+    position: relative;
+    right: 10px;
+  }
+}
 
