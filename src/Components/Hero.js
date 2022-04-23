@@ -2,7 +2,6 @@ import React from "react";
 import {motion} from "framer-motion";
 import { BsDiscord } from "react-icons/bs";
 import { BiLogIn } from "react-icons/bi";
-
 import "./hero.css";
 import heroImg from "./assets/img/Hero Illustration.svg";
 import CountDown from "./Countdown Timer/countdown";
@@ -20,6 +19,7 @@ export default function Hero() {
           <span className="d-block d-sm-inline gunmetal  rounded">
             Summer Fest
           </span>
+          
         </motion.h2>
         <CountDown />
         <motion.div initial={{y:250, opacity:0}} animate={{y:10, opacity:1}} transition={{duration:1}} className="hero-btns">

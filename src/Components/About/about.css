@@ -5,3 +5,18 @@
 	pointer-events: none;
 	right: 30px;
 }
+.about-text-head{
+	color: #FF8918;
+	font-weight: 700;
+}
+@media only screen and (max-width: 600px){
+	.about-img{
+		width: 550px;
+		position: relative;
+		left: 0.5px;
+		margin-bottom: 30px;
+	}
+	.about-text-head{
+		font-size: 22px;
+	}
+}

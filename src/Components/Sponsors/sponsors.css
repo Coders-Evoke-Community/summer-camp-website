@@ -1,3 +1,14 @@
 .sponsor-img a{
     margin: auto 1.5em;
 }
+.card{
+    background: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card img{
+    width: 60%;
+}
