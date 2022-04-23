@@ -5,7 +5,8 @@ import Hero from "./Components/Hero";
 import About from "./Components/About/about";
 import Sponsors from "./Components/Sponsors/sponsors";
 import Team from "./Components/Team/team";
-import Footer from "./Components/Footer/footer"
+import Faqs from "./Components/Faqs/faqs";
+import Footer from "./Components/Footer/footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Sponsors />
       <Team />
+      <Faqs />
       <Footer />
     </>
   );
