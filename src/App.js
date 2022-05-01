@@ -7,6 +7,7 @@ import Sponsors from "./Components/Sponsors/sponsors";
 import Team from "./Components/Team/team";
 import Faqs from "./Components/Faqs/faqs";
 import Footer from "./Components/Footer/footer";
+import Timeline from "./Components/Timeline/timeline";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <Timeline />
       <Sponsors />
       <Team />
       <Faqs />
