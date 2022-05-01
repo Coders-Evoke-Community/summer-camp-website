@@ -28,7 +28,7 @@ export default function Timeline() {
 
       <div className="timeline-container d-flex justify-content-center align-items-center my-5">
         <div className="calendar-img w-50">
-          <img src={calendar} className="w-50" alt="..." />
+          <img src={calendar} className="w-75" alt="..." />
         </div>
         <div className="event-container mx-2 border-start border-primary border-4">
           <div className="time-section d-flex flex-column justify-content-center align-items-center position-relative py-4">
