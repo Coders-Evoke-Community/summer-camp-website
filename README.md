@@ -11,6 +11,7 @@
 - [ ] embed leaderboard
 - [ ] add animations
 - [ ] make team card look better
+- [ ] make footer better
 
 # TODO
 - [ ] krupesh -> Add 'community partner section'
