@@ -1,6 +1,7 @@
 import React from 'react';
 import './footer.css';
 import { BsDiscord, BsTwitter, BsLinkedin, BsInstagram, BsFacebook} from "react-icons/bs";
+import ContactUs from "../Contact Us/contactUs";
 
 
 export default function Footer() {
@@ -25,6 +26,7 @@ export default function Footer() {
           <a href="#"><BsDiscord className="timer-icon mx-3" /></a>
         </li>
       </ul>
+      <ContactUs />
     </div>
   );
 }
