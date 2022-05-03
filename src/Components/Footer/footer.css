@@ -1,24 +1,40 @@
-.footer-container{
-	background: #ff942e;
-	padding: 10px;
+.checked{
+    color:gold;
 }
-.footer-container p{
-	font-size: 20px;
-	margin-top: 20px;
-	font-weight: 500;
+input{
+    width:400px !important;
 }
-.social-icons{
-	list-style: none;
+@media screen and (max-width:500px) {
+    input{
+      width:300px !important;
+    }
+    textarea{
+        width: 300px !important;
+        height: 150px; 
+    }
+  }
+textarea{
+    width: 400px;
+    height: 150px;
 }
-
-.social-icons li{
-	float: right;
-	position: relative;
-	bottom: 45px;
+.head1{
+    color: white;
 }
-.social-icons li a{
-	display: block;
-	font-size: 20px;
-	color: #FED1A2;
-
+.contact{
+    width:300px;
+    height:300px;
+    margin:auto;
+}
+.container-fluid{
+    background-image: linear-gradient(315deg, #ffb347 0%, #ff7f50 74%);
+    overflow-x: hidden;
+}
+p{
+    text-align: left;
+}
+.comp{
+    padding: 10px !important;
+}
+.copy{
+	color:white;
 }
