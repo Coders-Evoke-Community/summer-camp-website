@@ -2,7 +2,6 @@ import React from 'react';
 import './footer.css';
 import ContactUs from "../Contact Us/contactUs";
 import 'bootstrap/dist/css/bootstrap.min.css'
-import 'font-awesome/css/font-awesome.min.css';
 import { BsDiscord, BsTwitter, BsLinkedin, BsInstagram, BsFacebook} from "react-icons/bs";
 export default function Footer() {
   return (
