@@ -1,24 +1,31 @@
-.footer-container{
-	background: #ff942e;
-	padding: 10px;
+input{
+    width:400px !important;
 }
-.footer-container p{
-	font-size: 20px;
-	margin-top: 20px;
-	font-weight: 500;
+@media screen and (max-width:500px) {
+    input{
+      width:300px !important;
+    }
+    textarea{
+        width: 300px !important;
+        height: 150px; 
+    }
+  }
+textarea{
+    width: 400px;
+    height: 150px;
 }
-.social-icons{
-	list-style: none;
+.head1{
+    color: white;
 }
-
-.social-icons li{
-	float: right;
-	position: relative;
-	bottom: 45px;
+.contact{
+    width:300px;
+    height:300px;
+    margin:auto;
 }
-.social-icons li a{
-	display: block;
-	font-size: 20px;
-	color: #FED1A2;
-
+.container-fluid{
+    background-image: linear-gradient(315deg, #ffb347 0%, #ff7f50 74%);
+    overflow-x: hidden;
+}
+.copy{
+	color:white;
 }
