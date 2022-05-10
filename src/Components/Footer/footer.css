@@ -28,4 +28,27 @@ textarea{
 }
 .copy{
 	color:white;
+    font-size: 15px;
+}
+.footer-social-icons a{
+    color: antiquewhite;
+    font-size: 20px;
+    
+}
+input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+textarea{
+    border-radius: 10px;
+    outline: none;
+    border:none;
+    padding: 10px;
+}
+@media only screen and (max-width: 600px){
+    .copy{
+        text-align: center;
+    }
 }

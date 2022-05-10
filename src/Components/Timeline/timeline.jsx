@@ -37,11 +37,11 @@ export default function Timeline() {
             </div>
 
             <div className="event-details">
-              <EventCard />
-              <EventCard />
-              <EventCard />
-              <EventCard />
-              <EventCard />
+              <EventCard  date="2 June 2022" title = "Welcome Ceremony"/>
+              <EventCard  date="3 June 2022" title = "HTML & CSS Session"/>
+              <EventCard  date="4 June 2022" title = "React JS Session"/>
+              <EventCard  date="5 June 2022" title = "Cloud Computing & Interview Preparation"/>
+              <EventCard  date="6 June 2022" title = "Closing Ceremony"/>
             </div>
 
             <div class="badge bg-danger text-wrap fw-normal px-3 py-2 fs-6 position-absolute top-100 start-0 translate-middle">

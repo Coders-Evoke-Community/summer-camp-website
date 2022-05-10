@@ -1,7 +1,6 @@
 import React,{Component} from "react";
 import ReactDOM from "react-dom";
 import {TeamCard} from "./teamCard";
-import KrupeshVithlani from "../assets/img/Team/Krupesh Vithlani.jpg"
 export class Teammembers extends Component{
     state={
         counters:[

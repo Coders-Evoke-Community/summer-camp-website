@@ -1,41 +1,51 @@
-import React from "react";
-import "./contactUs.css";
+import React, {useState, useRef} from "react";
+import emailjs from 'emailjs-com';
+import './contactUs.css';
 
 export default function ContactUs() {
+
+    const formRef = useRef(null);
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_xz815jo', 'template_dtnfce1', formRef.current, 'VeSEtywUosCZstzFy')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        alert("Form Submitted");
+    };
+  
   return (
     <section>
-      <div className="contact-us-form container w-50">
-        <form>
-          <div class="mb-3">
-            <label for="fullname" class="form-label">
+      <div classNameName="contact-us-form container w-50">
+        <form method="post" ref={formRef} name="google-sheet" onSubmit = {sendEmail}>
+          <div className="mb-3">
+            <label for="fullname" className="form-label">
               Full Name
             </label>
-            <input
-              type="text"
-              class="form-control"
-              id="fullname"
-              aria-describedby="emailHelp"
-            />
+            <input type="text" className="form-control contact-input" id="fullname" name = "name"/>
           </div>
-          <div class="mb-3">
-            <label for="exampleInputemail1" class="form-label">
+          <div className="mb-3">
+            <label for="exampleInputemail1" className="form-label">
               Email Address
             </label>
-            <input type="email" class="form-control" id="exampleInputemail1" />
+            <input type="email" className="form-control contact-input" id="exampleInputemail1"  name = "email"/>
           </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">
+          <div className="mb-3">
+            <label for="exampleFormControlTextarea1" className="form-label">
               Type your message
             </label>
             <textarea
-              class="form-control"
+              className="form-control"
               id="exampleFormControlTextarea1"
               rows="3"
-            ></textarea>
+            name = "message"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">
-            Submit
-          </button>
+          {/* <input type="submit" className="btn btn-primary" value="Send Message"/> */}
+           
         </form>
       </div>
     </section>
