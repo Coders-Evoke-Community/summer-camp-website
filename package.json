@@ -8,6 +8,7 @@
     "@testing-library/react": "^13.0.1",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.1.3",
+    "emailjs-com": "^3.2.0",
     "flipdown": "^0.3.2",
     "framer-motion": "^6.3.0",
     "react": "^18.0.0",
