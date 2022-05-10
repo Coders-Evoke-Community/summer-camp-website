@@ -23,7 +23,6 @@ export default function CountDown() {
       const hours = Math.floor((distance / 1000 / 60 / 60) % 24);
       const minutes = Math.floor((distance / 1000 / 60) % 60);
       const seconds = Math.floor((distance / 1000) % 60);
-
       if (distance < 0) {
         // stop our timer
         clearInterval(interval.current);
@@ -35,11 +34,12 @@ export default function CountDown() {
       }
     }, 1000);
   };
-
+  
+  const inter =  interval.current;
   useEffect(() => {
     startTimer();
     return () => {
-      clearInterval(interval.current);
+      clearInterval(inter);
     };
   });
 
