@@ -24,7 +24,7 @@ export default function Hero() {
         <CountDown />
         <motion.div initial={{y:250, opacity:0}} animate={{y:10, opacity:1}} transition={{duration:1}} className="hero-btns">
               <motion.a href="#" whileHover={{scale: 1.1, rotate: 2}} className = "register-btn btn btn-primary "><BiLogIn className="timer-icon register-icon" />  Register</motion.a>
-              <a href="#" className = " discord-btn btn btn-primary"> <BsDiscord className="timer-icon mx-3" /> Join Discord</a>
+              <a href="/" className = " discord-btn btn btn-primary"> <BsDiscord className="timer-icon mx-3" /> Join Discord</a>
 
             </motion.div>
       </div>

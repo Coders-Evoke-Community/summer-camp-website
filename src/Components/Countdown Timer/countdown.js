@@ -1,7 +1,5 @@
-import { BsCalendar2Event } from "react-icons/bs";
 import "./countdown.css";
 import {motion} from "framer-motion";
-
 import { useEffect, useRef, useState } from "react";
 
 export default function CountDown() {
