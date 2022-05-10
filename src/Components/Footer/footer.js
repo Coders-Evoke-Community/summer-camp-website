@@ -1,4 +1,4 @@
-import React, {useState, useRef} from "react";
+import React, {useRef} from "react";
 import emailjs from 'emailjs-com';
 import './footer.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -23,7 +23,7 @@ export default function Footer() {
     <div class="row tex-center">
         <div class="col-sm-12 col-md-6 col-lg-6 p-5 m-auto">
          <h2 class="head1">Get in touch with us</h2>
-        <img class="contact" src="https://codess.cafe/images/banner.png"/>
+        <img class="contact" src="https://codess.cafe/images/banner.png" alt="contact-banner"/>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6 p-5">
         <form ref = {formRef} onSubmit = {sendEmail} >
@@ -45,11 +45,11 @@ export default function Footer() {
         <h6 class="copy">Copyright &copy; Summer Fest - Coders Evoke</h6>
         </div>
       <div class="col-sm-12 col-md-3 footer-social-icons">
-        <a href="#"><BsDiscord className="timer-icon mx-3" /></a>
-        <a href="#"><BsTwitter className="timer-icon mx-3" /></a>
-        <a href="#"><BsLinkedin className="timer-icon mx-3" /></a>
-        <a href="#"><BsFacebook className="timer-icon mx-3" /></a>
-        <a href="#"><BsInstagram className="timer-icon mx-3" /></a>
+        <a href="https://discord.gg/TYnvwhxRCd" target = "_blank" rel="noreferrer" ><BsDiscord className="timer-icon mx-3" /></a>
+        <a href="https://twitter.com/EvokeCoders" target="_blank" rel="noreferrer"><BsTwitter className="timer-icon mx-3" /></a>
+        <a href="https://www.linkedin.com/in/coders-evoke-a26305213/" target = "_blank" rel="noreferrer"><BsLinkedin className="timer-icon mx-3" /></a>
+        <a href="https://www.facebook.com/CodersEvokeCommunity" target = "_blank" rel="noreferrer"><BsFacebook className="timer-icon mx-3" /></a>
+        <a href="https://instagram.com/coders_evoked" target = "_blank" rel="noreferrer"><BsInstagram className="timer-icon mx-3" /></a>
       </div>
     </div>
     </div>

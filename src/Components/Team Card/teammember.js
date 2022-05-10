@@ -1,5 +1,4 @@
 import React,{Component} from "react";
-import ReactDOM from "react-dom";
 import {TeamCard} from "./teamCard";
 export class Teammembers extends Component{
     state={
