@@ -1,10 +1,7 @@
 import React,{Component} from "react"
-import codersEvoke from "../assets/img/logo.png";
-import KrupeshVithlani from "../assets/img/Team/Krupesh Vithlani.jpg"
 import "./teamCard.css";
 import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
-import Border from "../Customized Border/border";
-import { Teammembers } from "./teammember";
+
 
 export class TeamCard extends Component{
   render(){

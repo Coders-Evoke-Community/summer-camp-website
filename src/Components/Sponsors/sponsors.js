@@ -1,6 +1,5 @@
 import React from 'react';
 import "./sponsors.css";
-import codersEvoke from "../assets/img/logo.png";
 import gmc from "../assets/img/givemycertificate.png";
 import azure from "../assets/img/microsoft-azure-logo.png";
 import gfg from "../assets/img/gfg-new-logo.png";
