@@ -1,7 +1,6 @@
-import React, { Component } from "react"
+import React from "react"
 import "./team.css";
 import Border from "../Customized Border/border";
-import { TeamCard } from "../Team Card/teamCard";
 import { Teammembers } from "../Team Card/teammember";
 import { Teammembers1 } from "../Team Card/teammember1";
 import { Teammembers2 } from "../Team Card/teammember2";
@@ -10,7 +9,6 @@ import { Teammembers4 } from "../Team Card/teammember4";
 import { Teammembers5 } from "../Team Card/teammember5";
 import { Teammembers6 } from "../Team Card/teammember6";
 
-import codersEvoke from "../assets/img/logo.png";
 
 export default function Team() {
   return (
