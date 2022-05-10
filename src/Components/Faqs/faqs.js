@@ -1,6 +1,5 @@
 import React from 'react';
 import './faqs.css';
-import {motion} from 'framer-motion';
 import Border from '../Customized Border/border';
 
 function faqs() {
