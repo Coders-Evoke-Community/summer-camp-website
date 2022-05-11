@@ -3,6 +3,7 @@ import {motion} from "framer-motion";
 import { BsDiscord } from "react-icons/bs";
 import { BiLogIn } from "react-icons/bi";
 import "./hero.css";
+import {Link} from "react-router-dom";
 import heroImg from "./assets/img/Hero Illustration.svg";
 import CountDown from "./Countdown Timer/countdown";
 export default function Hero() {
@@ -23,8 +24,8 @@ export default function Hero() {
         </motion.h2>
         <CountDown />
         <motion.div initial={{y:250, opacity:0}} animate={{y:10, opacity:1}} transition={{duration:1}} className="hero-btns">
-              <motion.a href="#" whileHover={{scale: 1.1, rotate: 2}} className = "register-btn btn btn-primary "><BiLogIn className="timer-icon register-icon" />  Register</motion.a>
-              <a href="/" className = " discord-btn btn btn-primary"> <BsDiscord className="timer-icon mx-3" /> Join Discord</a>
+              <Link to="/register" className = "register-btn btn btn-primary "><BiLogIn className="timer-icon register-icon" />  Register</Link>
+              <Link to="/" className = " discord-btn btn btn-primary"> <BsDiscord className="timer-icon mx-3" /> Join Discord</Link>
 
             </motion.div>
       </div>

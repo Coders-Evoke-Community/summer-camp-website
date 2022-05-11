@@ -19,7 +19,7 @@ export default function Footer() {
   };
   return (
     <div>
-    <div class="container-fluid">
+    <div class="container-fluid" id = "contact">
     <div class="row tex-center">
         <div class="col-sm-12 col-md-6 col-lg-6 p-5 m-auto">
          <h2 class="head1">Get in touch with us</h2>
