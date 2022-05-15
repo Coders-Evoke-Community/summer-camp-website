@@ -9,7 +9,7 @@
 
 @media only screen and (max-width: 600px){
 	.hero-container{
-		margin-top: 30px;
+		margin-top: 10rem;
 	}
 	.hero-title{
 		text-align: center;

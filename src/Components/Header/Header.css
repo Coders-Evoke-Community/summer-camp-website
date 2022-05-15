@@ -4,10 +4,14 @@
   left: 50px;
 }
 .nav-link{
-  transition: all ease-in-out .2s;
+  transition: font-size ease-in-out .2s;
 }
 
 .nav-link:hover{
   text-decoration: underline;
   font-size: 27px;
+
+}
+.navbar{
+  background: #F9EBB8;
 }
