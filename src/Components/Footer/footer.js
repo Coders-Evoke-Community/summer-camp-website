@@ -45,7 +45,7 @@ export default function Footer() {
         <h6 class="copy">Copyright &copy; Summer Fest - Coders Evoke</h6>
         </div>
       <div class="col-sm-12 col-md-3 footer-social-icons">
-        <a href="https://discord.gg/TYnvwhxRCd" target = "_blank" rel="noreferrer" ><BsDiscord className="timer-icon mx-3" /></a>
+        <a href="https://discord.gg/TYnvwhxRCd" target = "_blank" rel="noreferrer" ><BsDiscord className="timer-icon mx-3 footer-icon" /></a>
         <a href="https://twitter.com/EvokeCoders" target="_blank" rel="noreferrer"><BsTwitter className="timer-icon mx-3" /></a>
         <a href="https://www.linkedin.com/in/coders-evoke-a26305213/" target = "_blank" rel="noreferrer"><BsLinkedin className="timer-icon mx-3" /></a>
         <a href="https://www.facebook.com/CodersEvokeCommunity" target = "_blank" rel="noreferrer"><BsFacebook className="timer-icon mx-3" /></a>

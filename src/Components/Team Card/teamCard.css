@@ -9,7 +9,9 @@
 .card{
     min-width: 18em;
 }
-
+.social-icons{
+    list-style: none;
+}
 .social-icons a{
     font-size: 1.65em;
     color: black;

@@ -7,7 +7,7 @@ import './Header.css'
 export default function Header(){
 	return(
 
-			<nav className="navbar navbar-expand-lg navbar-light">
+			<nav className="navbar fixed-top navbar-expand-lg navbar-light">
     <div className="container">
       <Link className="navbar-brand fw-bold text-gunmetal" to="/">
         <motion.span initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1}} className=""><img src="https://i.ibb.co/3cv4nGh/sun-3-256.png" alt="" width="50px" className="img-fluid imgsize"/></motion.span>

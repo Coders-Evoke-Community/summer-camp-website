@@ -18,7 +18,7 @@ export default function Hero() {
           Lets Build with
           <br />
           <span className="d-block d-sm-inline gunmetal  rounded">
-            Summer Fest
+            Summer Build
           </span>
           
         </motion.h2>
